@@ -1,23 +1,3 @@
-# with open('data_prog_contest_problem_2.txt', 'r', encoding='utf-8') as file:
-#     content = file.read()
-# print(content)
-#
-# content = content.split()
-# content = list(map(int, content))
-#
-# count = 0
-# max_mas = []
-# for i in range(1, content[0]):
-#     if (content[i] + 1 == content[i+1]) or (content[i] == 26 and content[i+1] == 1):
-#         print(content[i])
-#         count += 1
-#     else:
-#         max_mas.append(count)
-#         count = 0
-#
-#
-# print(max_mas)
-# print(max(max_mas))
 
 def min_alphabet_window(arr):
     """
